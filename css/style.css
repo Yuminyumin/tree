@@ -70,6 +70,7 @@ font-size: 130%
   font-size: 130%;
   font-weight: bold;
   display: block;
+  cursor: pointer;
 }
 .groundtab{
     display: flex;

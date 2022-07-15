@@ -5,13 +5,24 @@
     text-decoration: none; /*밑줄*/
     color: black;
     list-style: none;
+    background-color: beige;
 }
-.cakeImg{
-    width: 960px;
-    height: 540px;
-    background-image: url(../img/cake.png);
-    background-repeat: no-repeat; /* 배경 반복하는거*/
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
+.head1{
+    text-align: center;
+    font-size: 450%;
+    color:rgb(235, 144, 159);
+}
+.deco{
+  background-color : lightpink;
+  border-radius: 20px;
+  width: 800px;
+  height: 50px;
+  text-align:center;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 50px;
+  font-size: 130%;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
 }

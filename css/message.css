@@ -1,0 +1,88 @@
+*{
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none; /*밑줄*/
+    color: black;
+    list-style: none;
+}
+html,body{
+    background-color: beige;
+}
+.head1{
+    text-align: center;
+    font-size: 500%;
+    color:rgb(235, 144, 159);
+}
+.ground{
+    background-color : lightpink;
+    border-radius: 15px;
+    width: 800px;
+    height: 1000px;
+    text-align:center;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .before{/*이전 버튼*/
+    background-color : lightpink;
+    border-radius: 15px;
+    width: 800px;
+    height: 50px;
+    text-align:center;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 150%;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+  }
+  .cplt{/*다음 버튼*/
+    background-color : lightpink;
+    border-radius: 15px;
+    width: 800px;
+    height: 50px;
+    text-align:center;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 150%;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+  }
+#messagetab{ /*닉네임 편지내용*/
+    background-color: transparent;
+    display: flex;
+    flex-direction: column; /*방향*/
+    align-items: center;
+    margin: 100px;
+}
+.label-nickname{ /*닉네임 라벨*/
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: xx-large;
+}
+.label-contents{ /*편지 내용 라벨*/
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 70px;
+    font-size: xx-large;
+}
+#message-nickname{/*닉네임 빈칸*/
+    width: 100%;
+    margin: 20px;
+    height: 50px;
+    font-size: xx-large;
+}
+#message-contents{/*편지 내용 빈칸*/
+    width: 100%;
+    margin: 20px;
+    height: 600px;
+    font-size: x-large;
+}
