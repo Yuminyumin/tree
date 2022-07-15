@@ -1,8 +1,17 @@
+*{
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none; /*밑줄*/
+    color: black;
+    list-style: none;
+}
 .cakeImg{
-    width: 100%;
-    height: 100%;
+    width: 960px;
+    height: 540px;
     background-image: url(../img/cake.png);
-   
+    background-repeat: no-repeat; /* 배경 반복하는거*/
+    background-size: cover;
     margin: 0px;
     padding: 0px;
 }
