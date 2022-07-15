@@ -1,0 +1,47 @@
+*{
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    background-color: beige;
+}
+.loginBtn{
+width:100px;
+height:36px;
+background-color:white;
+color:rgb(104, 15, 104);
+text-align: center;
+line-height: 36px;
+cursor: pointer;
+border-radius: 5px;
+}
+.joinBtn{
+width:100px;
+height:36px;
+background-color:beige;
+color:rgb(104, 15, 104);
+text-align: center; /*글자위치*/
+line-height: 36px; /*글자 위로 띄움*/
+cursor: pointer; /*마우스 올라왔을때 커서 바뀜*/
+border-radius: 5px; 
+}
+.head1{
+    text-align: center;
+    font-size: 500%;
+    color:rgb(235, 144, 159);
+}
+.head2{
+    text-align: center;
+    font-size: 200%;
+    color: rgb(206, 129, 206);
+}
+.ground{
+  background-color : lightpink;
+  border-radius: 20px;
+  width: 800px;
+  height: 500px;
+  text-align:center;
+  margin: auto;
+}
