@@ -5,27 +5,31 @@
     text-decoration: none;
     color: black;
     list-style: none;
+}
+html,body{
     background-color: beige;
 }
 .loginBtn{
 width:100px;
 height:36px;
-background-color:white;
-color:rgb(104, 15, 104);
+background-color:lightpink;
+color:black;
 text-align: center;
 line-height: 36px;
 cursor: pointer;
-border-radius: 5px;
+padding: 7px;
+font-weight: bold;
 }
 .joinBtn{
 width:100px;
 height:36px;
-background-color:beige;
-color:rgb(104, 15, 104);
+background-color:white;
+color:black;
 text-align: center; /*글자위치*/
 line-height: 36px; /*글자 위로 띄움*/
 cursor: pointer; /*마우스 올라왔을때 커서 바뀜*/
-border-radius: 5px; 
+padding: 7px;
+font-weight: bold;
 }
 .head1{
     text-align: center;
@@ -44,4 +48,45 @@ border-radius: 5px;
   height: 500px;
   text-align:center;
   margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.groundtab>span{
+    width: 100%;
+}
+.nextBtn{
+  background-color : lightpink;
+  border-radius: 20px;
+  width: 800px;
+  height: 50px;
+  text-align:center;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 50px;
+  font-size: 130%;
+  font-weight: bold;
+}
+.groundtab{
+    display: flex;
+    justify-content: space-around;
+}
+#loginput{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+#loginput>input{
+    width: 50%;
+    margin: 10px;
+    height: 30px;
+}
+#loginput>label{
+    display: block;
+    text-align: left;
+    width: 50%;
+    font-size: x-large;
 }

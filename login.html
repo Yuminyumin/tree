@@ -10,13 +10,30 @@
 <body>
     <h1 class="head1">내 케이크를 꾸며줘!</h1>
     <h2 class="head2">케이크를 꾸며 생일을 축하해주세요</h2>
-    <ul>
-        <li>
-            <span class="loginBtn">로그인</span>
-            <span class="joinBtn">회원가입</span>
-        </li>
-    </ul>
-    <div class="ground"></div>
+
+    <div class="ground">
+        <div class="groundtab">
+            <span class="loginBtn" id="span-login" onclick="change_login()">로그인</span>
+            <span class="joinBtn" id="span-register" onclick="change_register()">회원가입</span>
+        </div>
+        <div id="loginput">
+            <label>id</label>
+            <input id="login-id">
+            <label>password</label>
+            <input id="login-password">
+        </div>
+        <div id="joinput">
+            <label>nickname</label>
+            <input id="join-nickname">
+            <label>id</label>
+            <input id="join-id">
+            <label>password</label>
+            <input id="join-password">
+        </div>
+    </div>
+
+    <div class="nextBtn">다음</div>
     <script src="front.js"></script>
 </body>
+
 </html>
