@@ -2,7 +2,7 @@
     border-collapse: collapse;
     margin:0px;
     padding: 0px;
-    text-decoration: none;
+    text-decoration: none; /*밑줄*/
     color: black;
     list-style: none;
 }
@@ -19,6 +19,7 @@ line-height: 36px;
 cursor: pointer;
 padding: 7px;
 font-weight: bold;
+font-size: 130%
 }
 .joinBtn{
 width:100px;
@@ -30,6 +31,7 @@ line-height: 36px; /*글자 위로 띄움*/
 cursor: pointer; /*마우스 올라왔을때 커서 바뀜*/
 padding: 7px;
 font-weight: bold;
+font-size: 130%
 }
 .head1{
     text-align: center;
@@ -67,24 +69,25 @@ font-weight: bold;
   line-height: 50px;
   font-size: 130%;
   font-weight: bold;
+  display: block;
 }
 .groundtab{
     display: flex;
     justify-content: space-around;
 }
-#loginput{
+#loginput,#joinput{
     background-color: transparent;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*방향*/
     align-items: center;
     margin: 100px;
 }
-#loginput>input{
+#loginput>input,#joinput>input{
     width: 50%;
     margin: 10px;
     height: 30px;
 }
-#loginput>label{
+#loginput>label,#joinput>label{
     display: block;
     text-align: left;
     width: 50%;
