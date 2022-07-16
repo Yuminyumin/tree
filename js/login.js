@@ -22,7 +22,7 @@ function login(){
     .then((response) => {  // 이제 받은 응답을 사용해서 로그인 성공 실패 처리를 하는거임  그런갑다해 나도 이해 안가 몰라 뭔 개소린지 모르겠어 이렇게 해야 나중에 응답 사용 가능함
         if(response.rc == 200){
             alert("로그인에 성공하셨습니다")
-            location.href= "cake.html"  // 주소 바꾸는 기능
+            location.href= `cake.html?nickname=${response.nickname}`  // 주소 바꾸는 기능
         }
         else{
             alert("로그인에 실패하셨습니다")
