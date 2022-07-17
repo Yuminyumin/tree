@@ -29,13 +29,13 @@ function postMessageToServer(){
             location.href= `cake.html?nickname=${param.get("nickname")}`  // 주소 바꾸는 기능
         }
         else{
-            alert("서버 오료가 발생하였습니다")
+            alert("서버 오류가 발생하였습니다")
 
         }
     })
     .catch((error) => {
         console.log(error)
-            alert("서버 오료가 발생하였습니다")
+            alert("서버 오류가 발생하였습니다")
     })  // fetch 에러날수도 있는데, 왜 에러났는지 콘솔에 로그로 남겨서 파악하는겅미
 
 }
