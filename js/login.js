@@ -14,7 +14,7 @@ function login(){
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            "user-id": loginIdValue,  // 붙여야함, json 규칙임
+            "user-id": loginIdValue,  // ,붙여야함 json 규칙임
             "user-passwd": loginPassValue
         })
 
